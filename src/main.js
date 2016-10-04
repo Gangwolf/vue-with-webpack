@@ -6,7 +6,10 @@ import App from './App.vue';
 
 sync(store, router);
 
-new Vue({
+const app = new Vue({
   router,
-  render: createElement => createElement(App)
-}).$mount('#app');
+  store,
+  render: h => h(App)
+});
+
+app.$mount('#app');

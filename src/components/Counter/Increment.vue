@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'Increment',
   methods: {
     incrementCounter(...args) {
       this.$store.dispatch('incrementCounter', ...args);

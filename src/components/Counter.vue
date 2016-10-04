@@ -13,11 +13,11 @@ import Decrement from './Counter/Decrement.vue';
 import store from '../state/store.js';
 
 export default {
+  name: 'Counter',
   components: {
     Display,
     Increment,
     Decrement
-  },
-  store
+  }
 };
 </script>

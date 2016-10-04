@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: 'Display',
   computed: {
     counterValue() {
       return this.$store.getters.getCount;
